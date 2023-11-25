@@ -1,0 +1,57 @@
+name: reand
+description: "A Task manager app."
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.14.1
+  #firebase_auth_platform_interface: ^7.0.5
+  firebase_core_platform_interface: ^5.0.0
+  barcode_widget: ^2.0.4
+  google_sign_in: ^6.1.6
+  firebase_messaging: ^14.7.4
+  flutter_signin_button: ^2.0.0
+  google_sign_in_dartio: ^0.2.2+1
+  collection: ^1.18.0
+  get: ^4.6.6
+  sqflite_common_ffi: ^2.3.0+4
+  sqflite: ^2.3.0
+  flutter_local_notifications: ^16.1.0
+  intl: ^0.18.1
+  rxdart: ^0.27.7
+  flutter_timezone: ^1.0.8
+  google_fonts: ^4.0.4
+  get_storage: ^2.0.3
+  flutter_svg: ^2.0.9
+  date_picker_timeline: ^1.2.5
+  flutter_staggered_animations: ^1.1.1
+  firebase_core: ^2.23.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  sqflite_common_ffi_web: ^0.4.0
+  desktop_notifications: ^0.6.3
+  local_notifier: ^0.1.5
+  windows_notification: ^1.0.0
+  desktop_window: ^0.4.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mockito: ^5.1.0
+  test: ^1.16.5
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
